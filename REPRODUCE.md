@@ -1,23 +1,32 @@
 # MEO Black-Box Reproduction Package
 
-This package provides explicit inspection and reproduction scaffolding for the packaged MEO-vs-Omnigent evidence.
+This package provides explicit inspection and reproduction scaffolding for the packaged MEO-vs-Omnigent evidence while keeping MEO itself black-box.
 
 ## What This Verifies
 
-1. Packaged raw evidence exists.
-2. Claim groups have raw result files, score/summary files, inputs or scanner artifacts, and logs/transcripts.
-3. Package files can be hashed for integrity.
-4. Selected rerun commands can be reconstructed in dry-run form.
+This handoff supports two separate reviewer workflows:
+
+1. Archived evidence verification.
+   Reviewers can verify that the historical MEO-vs-M0 evidence exists, is packaged coherently, has hashes/audits/claim maps, and supports the reported claims without making provider calls.
+
+2. Operational MEO treatment inspection.
+   Reviewers can inspect archived M1/MEO outputs, treatment evidence, audit artifacts, raw artifact indexes, claim maps, score derivations, and reference outputs to see how MEO-treated arms differed from comparator arms.
+
+3. Independent Omnigent-side replication.
+   Reviewers can use the portable 24-arm A/B contract to rerun treatment A and treatment B inside their own trusted Omnigent execution environment.
+
+4. Black-box boundary preservation.
+   The package exposes task contracts, prompts/tasks, schemas, outputs, audits, score derivations, and replication materials. It does not expose MEO source code, private internals, private internal deliberation, provider credentials, or local launcher secrets.
 
 ## Run
 
-From WSL:
+There are two workflows.
 
-```bash
-cd THIS_PACKAGE
-python3 scripts/inspect_evidence.py
-python3 scripts/recompute_claim_counts.py
-python3 scripts/verify_package_hashes.py
-bash scripts/rerun_selected_blackbox_arm_dryrun.sh
+### Archived Evidence Verification
 
-The rerun script is intentionally dry-run only. It does not call paid providers.
+Download `ARCHIVED_EVIDENCE_VERIFICATION_KIT.zip` from the GitHub release assets.
+
+Inside the extracted package, start with:
+
+```powershell
+.\VERIFY_EVIDENCE.ps1
