@@ -170,7 +170,7 @@ It gives the supervisor a coherent way to preserve obligations, bind evidence, a
 
 **MEO makes Omnigent substantially more capable at being a supervisor.**
 
-The black-box reproduction handoff allows Omnigent builders to evaluate that statement directly:
+The black-box reproduction handoff allows anyone to evaluate that statement directly:
 
 1. understand the intervention;
 2. inspect MEO's archived operational treatment evidence;
