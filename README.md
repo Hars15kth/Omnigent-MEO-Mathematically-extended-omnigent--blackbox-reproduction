@@ -1,4 +1,4 @@
-﻿# Five-Minute Reader Map
+﻿# Mathematically Extended Omnigent reproduction
 
 This repository is a black-box reproduction handoff for MEO vs Omnigent. It is organized around five distinct reviewer actions:
 
