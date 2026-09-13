@@ -44,7 +44,7 @@ Then inspect:
 
 ### Archived Evidence Verification
 
-`release-assets/ARCHIVED_EVIDENCE_VERIFICATION_KIT.zip`
+`ARCHIVED_EVIDENCE_VERIFICATION_KIT.zip from the GitHub release assets`
 
 Purpose:
 
@@ -55,7 +55,7 @@ Purpose:
 
 ### Independent Omnigent Replication Contract
 
-`release-assets/INDEPENDENT_OMNIGENT_REPLICATION_CONTRACT_24ARM.zip`
+`INDEPENDENT_OMNIGENT_REPLICATION_CONTRACT_24ARM.zip from the GitHub release assets`
 
 Purpose:
 
@@ -75,5 +75,12 @@ It records historical M1/MEO outputs, treatment/proof/manipulation artifacts, sc
 ## Reviewer Positioning
 
 This handoff does not ask reviewers to resurrect a historical local launcher. The important question is whether the archived evidence verifies cleanly and whether Omnigent builders can take the same experimental contract and run M0 vs MEO in their own environment.
-rn## Additional Reviewer Documentsrnrn- RAW_ARTIFACT_INDEX.md maps large raw bundles to experiment families.rn- BLACKBOX_MEO_BOUNDARY.md defines what is exposed while keeping MEO explicitly black-box.rn
+
+
+## Additional Reviewer Documents
+
+- RAW_ARTIFACT_INDEX.md maps large raw bundles to experiment families.
+- BLACKBOX_MEO_BOUNDARY.md defines what is exposed while keeping MEO explicitly black-box.
+
+
 
