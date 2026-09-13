@@ -1,0 +1,9 @@
+package,files,result_json,score_summary_report,inputs_or_scanner_artifacts,logs_transcripts
+/mnt/d/omnigent-blackbox-positive-delta-SLIM-20260912T053958Z,1956,252,177,727,307
+/mnt/d/omnigent-blackbox-OLD-RAW-IMPERATIVE-20260912T062257Z,4629,1167,61,903,1243
+/mnt/d/omnigent-blackbox-REPORT-IMPERATIVE-supplement-20260912T061643Z,412,29,36,38,3
+/mnt/d/omnigent-blackbox-CLAIM-TO-ARTIFACT-INDEX-20260912T063511Z,3,0,0,0,0
+/mnt/d/omnigent-blackbox-21PAIR-RAWREADY-and-FINAL-AUDIT-20260912T064909Z,4,0,3,0,0
+/mnt/d/omnigent-blackbox-FINAL-CLEAN-AUDIT-20260912T065634Z,5,0,3,0,0
+/mnt/d/omnigent-blackbox-WRITEUP-CLAIM-MAP-FAST-20260912T072702Z,3,0,0,0,0
+/mnt/d/omnigent-blackbox-21PAIR-COST-CLAIM-CHECK-20260912T073204Z,4,0,0,0,0
