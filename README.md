@@ -44,7 +44,7 @@ Then inspect:
 
 ### Archived Evidence Verification
 
-`ARCHIVED_EVIDENCE_VERIFICATION_KIT.zip from the GitHub release assets`
+`ARCHIVED_EVIDENCE_VERIFICATION_KIT.zip` from the GitHub release assets
 
 Purpose:
 
@@ -55,7 +55,7 @@ Purpose:
 
 ### Independent Omnigent Replication Contract
 
-`INDEPENDENT_OMNIGENT_REPLICATION_CONTRACT_24ARM.zip from the GitHub release assets`
+`INDEPENDENT_OMNIGENT_REPLICATION_CONTRACT_24ARM.zip` from the GitHub release assets
 
 Purpose:
 
@@ -81,6 +81,7 @@ This handoff does not ask reviewers to resurrect a historical local launcher. Th
 
 - RAW_ARTIFACT_INDEX.md maps large raw bundles to experiment families.
 - BLACKBOX_MEO_BOUNDARY.md defines what is exposed while keeping MEO explicitly black-box.
+
 
 
 
